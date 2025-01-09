@@ -1,3 +1,14 @@
+# Lesson Learned Routing
+
+npm info (Installation trotzdem notwendig auch wenn info vorhanden / sonst Fehler: Module not found: Can't resolve 'react-router')
+alt: npm info react-router-dom
+npm info react-router
+
+npm i react-router@latest (nur react-router, ersetzt react-router-dom)
+
+alt: import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router} from "react-router";
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
